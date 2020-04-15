@@ -1,15 +1,19 @@
-package com.revature.code;
+package com.revature.driver;
+import com.revature.code.Animal;
 
 public class Driver {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Moved the driver file to the driver package
+		
 	Animal a = new Animal();
-	System.out.println(a);
+	
 	a.setAge(80);
 	a.setAnimalType("Dog");
 	a.setWeight(180);
 	System.out.println(a.getAnimalType());
+	
+	System.out.println(a);
 	
 	}
 
