@@ -4,12 +4,11 @@ public class Car {
 	private int age;
 	private String make;
 	private String model;
-	
-	
+
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
+
 	public int getAge() {
 		return age;
 	}
@@ -34,7 +33,5 @@ public class Car {
 	public String toString() {
 		return "Car [age=" + age + ", make=" + make + ", model=" + model + "]";
 	}
-	
-	
 
 }
